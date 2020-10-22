@@ -50,7 +50,7 @@ int main(int, char**){
 }
 
 ```
-O programa **regions.cpp** foi desenvolvido usando a imagem: Bob.png como referência e gerou a imagem: resultado de regions.png. Os pontos usados para formar o retângulo de nagativo foram: **P1 = (100, 200)** e **P2 = (300, 460)** e a dimensão dessas duas imagens é: **600x803**.
+O programa **regions.cpp** foi desenvolvido usando a imagem: **Bob.png** como referência e gerou a imagem: **Resultado de regions.png**. Os pontos usados para formar o retângulo de nagativo foram: **P1 = (100, 200)** e **P2 = (300, 460)** e a dimensão dessas duas imagens é: **600x803**.
 
 **regions.cpp**
 ```cpp
@@ -111,4 +111,5 @@ int main(){
 }
 
 ```
+**Bob.png**
 ![Bob](https://user-images.githubusercontent.com/37122281/96937626-f4d63780-149e-11eb-80ca-23c219d06043.png)
