@@ -1,6 +1,6 @@
 # DCA0445 - PROCESSAMENTO DIGITAL DE IMAGENS
 ## 1º Unidade
-### 1.1 Manipulando Pixels em uma Imagem
+### 1.1.1 Manipulando Pixels em uma Imagem - Regiões
 
 O programa **pixels.cpp** foi utilizado como referência para o desenvolvimento de um programa chamado **regions.cpp**. O objetivo desse novo programa é solicitar ao usuário as coordenadas de dois pontos **P1** e **P2** localizados dentro dos limites do tamanho da imagem fornecida. Os pontos escolhidos formam uma região retangular de vértices opostos, e a parcela da imagem comprendida na parte interna a esse retângulo é exibida com o negativo. 
 
@@ -119,3 +119,5 @@ int main(){
 ![Resultado de regions](https://user-images.githubusercontent.com/37122281/96938260-3c10f800-14a0-11eb-9cd2-db924f98aa4c.png)
 
 **Resultado de regions.png**
+
+### 1.1.1 Manipulando Pixels em uma Imagem - Troca de quadrantes em Diagonal
