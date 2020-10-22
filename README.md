@@ -50,3 +50,4 @@ int main(int, char**){
 }
 
 ```
+O programa regions.cpp foi desenvolvido usando a imagem: Bob.png como referência e gerou a imagem: resultado de regions.png. Os pontos usados para formar o retângulo foram: P1 = (100,200) e P2 = (300, 460) e a dimensão dessas duas imagens é: 600x803.
