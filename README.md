@@ -115,3 +115,7 @@ int main(){
 ![Bob](https://user-images.githubusercontent.com/37122281/96937626-f4d63780-149e-11eb-80ca-23c219d06043.png)
 
 **Bob.png**
+
+![Resultado de regions](https://user-images.githubusercontent.com/37122281/96938260-3c10f800-14a0-11eb-9cd2-db924f98aa4c.png)
+
+**Resultado de regions.png**
