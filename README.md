@@ -1,6 +1,6 @@
 # DCA0445 - PROCESSAMENTO DIGITAL DE IMAGENS
 ## 1º Unidade
-### 1.1.1 Manipulando Pixels em uma Imagem - Regiões
+### 1.1 Manipulando Pixels em uma Imagem - Regiões
 
 O programa **pixels.cpp** foi utilizado como referência para o desenvolvimento de um programa chamado **regions.cpp**. O objetivo desse novo programa é solicitar ao usuário as coordenadas de dois pontos **P1** e **P2** localizados dentro dos limites do tamanho da imagem fornecida. Os pontos escolhidos formam uma região retangular de vértices opostos, e a parcela da imagem comprendida na parte interna a esse retângulo é exibida com o negativo. 
 
@@ -120,7 +120,7 @@ int main(){
 
 **Resultado de regions.png**
 
-### 1.1.1 Manipulando Pixels em uma Imagem - Troca de quadrantes em Diagonal
+### 1.2 Manipulando Pixels em uma Imagem - Troca de quadrantes em Diagonal
 O programa chamado: **trocaregioes.cpp** troca os quadrantes em diagonal na imagem. Esse resultado foi obtido usando uma das implementações do construtor da classe Mat que permite definir uma imagem como uma região de outra já existente. Um exemplo disso é o comando: **Mat S_esquer(imagem, Rect(0,0, imagem/2, imagem/2))**. Essa linha de código cria a matriz **S_esquer** e coloca nela o conteúdo da **imagem original** que está dentro do retângulo passado. No OpenCV retângulos podem ser definidos como **Rect(coordX, coordY, largura, altura)**. A imagem antes do processamento é a i**magem_original.png** e após é a **resultado_de_trocaregioes.png**.
 
 **trocaregioes.cpp**
@@ -166,3 +166,5 @@ int main(){
 ![Resultado de trocaregioes](https://user-images.githubusercontent.com/37122281/96947229-03314d00-14b9-11eb-96b1-87615b25a27c.png)
 
 **resultado_de_trocaregioes.png**
+
+### 2.1 Preenchendo Regiões - Contagem de Bolhas
