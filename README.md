@@ -450,6 +450,7 @@ int main(){
 
 ![Movimento_esquerda](https://user-images.githubusercontent.com/37122281/96961548-4ac8d080-14db-11eb-85a1-27fe055bb18e.png)
 
+### 4.1 Filtragem no Domínio Espacial I
 
-
+Utilizando o programa **filtroespacial.cpp** como referência, foi implementado um programa **laplgauss.cpp**. O programa acrescenta mais uma funcionalidade ao exemplo fornecido, permitindo que seja **calculado o laplaciano do gaussiano das imagens capturadas**. Foi constatado que o resultado do **Laplaciano do Gaussiano** tem menos ruído que o **laplaciano puro**.
 
