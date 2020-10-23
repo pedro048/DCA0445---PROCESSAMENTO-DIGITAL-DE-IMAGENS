@@ -441,5 +441,12 @@ int main(){
 }
 
 ```
+**Movimento_esquerda**
+
+![Movimento_esquerda](https://user-images.githubusercontent.com/37122281/96961548-4ac8d080-14db-11eb-85a1-27fe055bb18e.png)
+
+**Movimento_direita.png**
+
+![Movimento_direita](https://user-images.githubusercontent.com/37122281/96961557-4ef4ee00-14db-11eb-9321-8415e9ffcd79.png)
 
 
