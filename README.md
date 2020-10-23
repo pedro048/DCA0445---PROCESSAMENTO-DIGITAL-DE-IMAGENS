@@ -359,5 +359,23 @@ int main(){
 }
 
 ```
+**Imagem_original.png**
+
+![Imagem_original](https://user-images.githubusercontent.com/37122281/96957828-1e5c8680-14d2-11eb-87c0-59936585e249.png)
+
+
+**Imagem_equalizada.png**
+
+![Imagem_equalizada](https://user-images.githubusercontent.com/37122281/96957832-21577700-14d2-11eb-802f-85b081292869.png)
+
+
+**Histograma_original.png**
+
+![Histograma_original](https://user-images.githubusercontent.com/37122281/96957840-25839480-14d2-11eb-875e-36dc81e25fc5.png)
+
+
+**Histograma_equalizado.png**
+
+![Histograma_equalizado](https://user-images.githubusercontent.com/37122281/96957848-29171b80-14d2-11eb-82ec-518bf5ad03d8.png)
 
 
