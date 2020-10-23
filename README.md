@@ -284,4 +284,8 @@ int main(){
 
 **sem_borda.png**
 
+### 3.1 Manipulação de Histograma - Equalização
+
+Utilizando o programa **histogram.cpp** como referência, foi implementado um programa chamado **equalize.cpp**. Para cada imagem capturada, ele realiza a equalização do histogram antes da exibição dela. A implementação foi testada apontando a webcam do notebook para ambientes com iluminações variadas e observando o efeito gerado. As imagens processadas estavam em tons de cinza.
+
 
