@@ -169,7 +169,7 @@ int main(){
 
 ### 2.1 Preenchendo Regiões - Contagem de Bolhas e Buracos
 
-O **algoritmo de contagem apresentado (labeling.cpp)** foi aprimorado para identificar regiões com ou sem buracos internos que existem na cena. Foi assumido que objetos com mais de um buraco podem existir e o algoritmo não conta bolhas que tocam as bordas da imagem.
+O **algoritmo de contagem apresentado (labeling.cpp)** foi aprimorado para identificar regiões com ou sem buracos internos que existem na cena. Foi assumido que objetos com mais de um buraco podem existir e o algoritmo não conta bolhas que tocam as bordas da imagem. **Foram encontradas 21 bolhas, sendo 7 com buraco**. As imagens geradas para fazer o processamento (**bolhas.png, buracos.png, result_Bolhas.png, sem_borda.png**) serão exibidas abaixo.
 
 **labeling.cpp**
 ```cpp
@@ -267,4 +267,6 @@ int main(){
 }
 
 ```
+
+
 
