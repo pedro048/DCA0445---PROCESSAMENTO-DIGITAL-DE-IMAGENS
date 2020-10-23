@@ -585,4 +585,11 @@ int main(int argvc, char **argv){
 }
 
 ```
+**Laplaciano.png**
+
+![Laplaciano](https://user-images.githubusercontent.com/37122281/96990111-0bab7700-14fd-11eb-9444-13669428cb71.png)
+
+**Laplaciano_do_Gaussiano.png**
+
+![Laplaciano do Gaussiano](https://user-images.githubusercontent.com/37122281/96990116-0ea66780-14fd-11eb-84cd-c7da82540491.png)
 
