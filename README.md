@@ -380,6 +380,6 @@ int main(){
 
 ### 3.1 Manipulação de Histograma - Detector de Movimento
 
-Utilizando o programa histogram.cpp como referência, foi realizada a implementação de um programa chamado motiondetector.cpp. Ele calcula continuamente o histograma da imagem (em tons de cinza por causa do CV_RGB2GRAY) e compara com o último histograma calculado. Um movimento é dettectado quando a diferença entre os histogramas presentes e passados é significativa. O método de comparação utilizado na função de comparação foi o CV_COMP_BHATTACHARYYA. Ela retorna um *float* de 0 a 1. 
+Utilizando o programa histogram.cpp como referência, foi realizada a implementação de um programa chamado motiondetector.cpp. Ele calcula continuamente o histograma da imagem (em tons de cinza por causa do CV_RGB2GRAY) e compara com o último histograma calculado. Um movimento é dettectado quando a diferença entre os histogramas presentes e passados é significativa. O método de comparação utilizado na função de comparação foi o CV_COMP_BHATTACHARYYA. Ela retorna um *float* de 0 a 1. A identificação de funcionamento do programa pode ser feita nas imagens abaixo: **Movimento_esquerda.png** e **Movimento_direita.png**.
 
 
