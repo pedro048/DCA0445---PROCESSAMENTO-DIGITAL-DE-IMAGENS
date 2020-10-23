@@ -268,5 +268,20 @@ int main(){
 
 ```
 
+![bolhas](https://user-images.githubusercontent.com/37122281/96952604-996b7000-14c5-11eb-811d-8e04beb221c2.png)
+
+**bolhas.png**
+
+![buracos](https://user-images.githubusercontent.com/37122281/96952608-9d978d80-14c5-11eb-9e01-87eec2958f41.png)
+
+**buracos.png**
+
+![result_Bolhas](https://user-images.githubusercontent.com/37122281/96952613-a4260500-14c5-11eb-8ede-3ced0b0194d9.png)
+
+**result_Bolhas.png**
+
+![sem_borda](https://user-images.githubusercontent.com/37122281/96952618-a7b98c00-14c5-11eb-9773-6ffd4c2f8ddd.png)
+
+**sem_borda.png**
 
 
