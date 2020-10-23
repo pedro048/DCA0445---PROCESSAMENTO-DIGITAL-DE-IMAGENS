@@ -162,3 +162,7 @@ int main(){
 ![Imagem Original](https://user-images.githubusercontent.com/37122281/96947152-c5ccbf80-14b8-11eb-96a8-becaddb0097e.png)
 
 **imagem_original.png**
+
+![Resultado de trocaregioes](https://user-images.githubusercontent.com/37122281/96947229-03314d00-14b9-11eb-96b1-87615b25a27c.png)
+
+**resultado_de_trocaregioes.png**
