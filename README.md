@@ -167,4 +167,7 @@ int main(){
 
 **resultado_de_trocaregioes.png**
 
-### 2.1 Preenchendo Regiões - Contagem de Bolhas
+### 2.1 Preenchendo Regiões - Contagem de Bolhas e Buracos
+
+O algoritmo de contagem apresentado (labeling.cpp) foi aprimorado para identificar regiões com ou sem buracos internos que existem na cena. Foi assumido que objetos com mais de um buraco podem existir e o algoritmo não conta bolhas que tocam as bordas da imagem.
+
