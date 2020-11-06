@@ -593,3 +593,11 @@ int main(int argvc, char **argv){
 
 ![Laplaciano do Gaussiano](https://user-images.githubusercontent.com/37122281/96990116-0ea66780-14fd-11eb-84cd-c7da82540491.png)
 
+## 2º Unidade
+### 1.1 Filtragem no Domínio da Frequência - Filtro Homomórfico
+
+### 2.1 Detecção de Bordas com o Algoritmo de Canny
+
+### 3.1 Quantização Vetorial com K-means
+
+
