@@ -598,7 +598,7 @@ int main(int argvc, char **argv){
 ## 2º Unidade
 ### 1.1 Filtragem no Domínio da Frequência - Filtro Homomórfico
 
-Foi utilizado o programa dft.cpp como base para a implementação do filtro homomórfico. Ele tem como função melhorar imagens com iluminação irregular. Ocorreu o fornecimento de uma imagem contendo uma cena mal iluminada, e com ajustes nos parâmetros do filtro homomórfico tornou-se possível corrigir a iluminação. Depois da aplicação do filtro é possível perceber a presença de objetos que não não eram visíveis na cena. 
+Foi utilizado o programa dft.cpp como base para a implementação do filtro homomórfico. Ele tem como função melhorar imagens com iluminação irregular. Ocorreu o fornecimento de uma imagem contendo uma cena mal iluminada, e com ajustes nos parâmetros do filtro homomórfico tornou-se possível corrigir a iluminação. Depois da aplicação do filtro é possível perceber a presença de objetos que não eram visíveis na cena. 
 
 ### 2.1 Detecção de Bordas com o Algoritmo de Canny
 
