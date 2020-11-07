@@ -860,6 +860,7 @@ int main(int argc, char** argv){
   int x, y;
   
   image= imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);
+  resize(image, image, cv::Size(700, 800));
 
   srand(time(0));
   
@@ -910,7 +911,7 @@ int main(int argc, char** argv){
 ```
 **pontos.png**
 
-![pontos](https://user-images.githubusercontent.com/37122281/98449412-33f8bf80-2112-11eb-81c2-131231fba4a1.jpg)
+
 
 
 ### 3.1 Quantização Vetorial com K-means
