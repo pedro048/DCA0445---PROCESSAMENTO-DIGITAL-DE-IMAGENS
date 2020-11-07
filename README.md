@@ -1013,12 +1013,17 @@ int main(int argc, char** argv){
 return 0;
 }
 ```
+**pontos_result.jpg**
 
-![cannyborders_result](https://user-images.githubusercontent.com/37122281/98450783-64465b00-211e-11eb-8a95-d8e11fff47b0.png)
+![pontos_result](https://user-images.githubusercontent.com/37122281/98450884-56dda080-211f-11eb-8f16-bf35e294c54e.jpg)
 
-![pontos_result](https://user-images.githubusercontent.com/37122281/98450786-71634a00-211e-11eb-9814-556aa342b53b.jpg)
+**cannyborders_result.png**
 
-![cannypoints_result](https://user-images.githubusercontent.com/37122281/98450788-76c09480-211e-11eb-8259-331bb04c62a0.png)
+![cannyborders_result](https://user-images.githubusercontent.com/37122281/98450888-5b09be00-211f-11eb-8010-ebc1b4a9b6b5.png)
+
+**cannypoints_result.png**
+
+![cannypoints_result](https://user-images.githubusercontent.com/37122281/98450889-5e9d4500-211f-11eb-9105-259de4c4cf17.png)
 
 ### 3.1 Quantização Vetorial com K-means
 
