@@ -988,7 +988,7 @@ int main(int argc, char** argv){
       gray = image.at<uchar>(x,y);
       circle(points,
              cv::Point(y,x),
-             8,
+             6,
              CV_RGB(gray,gray,gray),
              -1,
              CV_AA);
@@ -1014,6 +1014,7 @@ int main(int argc, char** argv){
 
 return 0;
 }
+
 ```
 **pontos_result.jpg**
 
