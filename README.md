@@ -763,11 +763,11 @@ int main(int , char**){
 }
 ```
 
-**Imagem Original**
+**Imagem_original.png (redimensionamento da Janela_escura.jpg)**
 
 ![Imagem_original](https://user-images.githubusercontent.com/37122281/98443290-2e3ab400-20e9-11eb-87fa-8956967523d5.png)
 
-**Imagem Filtrada**
+**Imagem_filtrada.png**
 
 ![Imagem_filtrada](https://user-images.githubusercontent.com/37122281/98443293-3135a480-20e9-11eb-9016-60d694aba500.png)
 
