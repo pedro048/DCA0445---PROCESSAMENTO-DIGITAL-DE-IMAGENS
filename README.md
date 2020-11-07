@@ -912,8 +912,8 @@ int main(int argc, char** argv){
   imwrite("pontos.jpg", points);
   return 0;
 }
-
-Teste com pontos, relativamente, pequenos.```
+```
+Teste com pontos, relativamente, pequenos.
 
 **pontos.png**
 
