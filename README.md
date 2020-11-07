@@ -911,6 +911,8 @@ int main(int argc, char** argv){
 ```
 **pontos.png**
 
+![pontos](https://user-images.githubusercontent.com/37122281/98449529-137d3500-2113-11eb-875a-54fd9a2d5ddd.jpg)
+
 
 
 
