@@ -775,6 +775,8 @@ int main(int , char**){
 
 Os programas **canny.cpp**(encontra bordas) e **pontilhismo.cpp**(insere círculos) foram utilizadas como referência para implementação de um programa chamado **cannypoints.cpp**. As bordas produzidas pelo algoritmo de Canny foram usadas para melhorar a qualidade da imagem pontilhista gerada. Apresentar a técnica pontilhista usada.
 
+**canny.cpp**
+
 ```cpp
 #include <iostream>
 #include "opencv2/opencv.hpp"
@@ -820,9 +822,92 @@ int main(int argc, char**argv){
   return 0;
 }
 ```
+O Threshold inferior usado foi 74.
+
 **cannyborders.png**
 
 ![cannyborders](https://user-images.githubusercontent.com/37122281/98449318-40c8e380-2111-11eb-8aa8-852331f3e6e5.png)
+
+**pontilhismo.cpp**
+
+```cpp
+#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <fstream>
+#include <iomanip>
+#include <vector>
+#include <algorithm>
+#include <numeric>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+using namespace cv;
+
+#define STEP 5
+#define JITTER 3
+#define RAIO 3
+#define CV_LOAD_IMAGE_GRAYSCALE 0
+#define CV_AA 16
+
+int main(int argc, char** argv){
+  vector<int> yrange;
+  vector<int> xrange;
+
+  Mat image, frame, points;
+
+  int width, height, gray;
+  int x, y;
+  
+  image= imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);
+
+  srand(time(0));
+  
+  if(!image.data){
+	cout << "nao abriu" << argv[1] << endl;
+    cout << argv[0] << " imagem.jpg";
+    exit(0);
+  }
+
+  width=image.size().width;
+  height=image.size().height;
+
+  xrange.resize(height/STEP);
+  yrange.resize(width/STEP);
+  
+  iota(xrange.begin(), xrange.end(), 0); 
+  iota(yrange.begin(), yrange.end(), 0);
+
+  for(uint i=0; i<xrange.size(); i++){
+    xrange[i]= xrange[i]*STEP+STEP/2;
+  }
+
+  for(uint i=0; i<yrange.size(); i++){
+    yrange[i]= yrange[i]*STEP+STEP/2;
+  }
+
+  points = Mat(height, width, CV_8U, Scalar(255));
+
+  random_shuffle(xrange.begin(), xrange.end());
+  
+  for(auto i : xrange){
+    random_shuffle(yrange.begin(), yrange.end());
+    for(auto j : yrange){
+      x = i+rand()%(2*JITTER)-JITTER+1;
+      y = j+rand()%(2*JITTER)-JITTER+1;
+      gray = image.at<uchar>(x,y);
+      circle(points,
+             cv::Point(y,x),
+             RAIO,
+             CV_RGB(gray,gray,gray),
+             -1,
+             CV_AA);
+    }
+  }
+  imwrite("pontos.jpg", points);
+  return 0;
+}
+```
 
 
 
