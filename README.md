@@ -773,7 +773,11 @@ int main(int , char**){
 
 ### 2.1 Detecção de Bordas com o Algoritmo de Canny
 
-Os programas **canny.cpp**(encontra bordas) e **pontilhismo.cpp**(insere círculos) foram utilizadas como referência para implementação de um programa chamado **cannypoints.cpp**. As bordas produzidas pelo algoritmo de Canny foram usadas para melhorar a qualidade da imagem pontilhista gerada. Apresentar a técnica pontilhista usada.
+Os programas **canny.cpp**(encontra bordas) e **pontilhismo.cpp**(insere círculos) foram utilizadas como referência para implementação de um programa chamado **cannypoints.cpp**. As bordas produzidas pelo algoritmo de Canny foram usadas para melhorar a qualidade da imagem pontilhista gerada. Apresentar a técnica pontilhista usada. A imagem abaixo foi usada como base para o projeto.
+
+**Bob1.png**
+
+![Bob1](https://user-images.githubusercontent.com/37122281/98449876-73290f80-2116-11eb-8620-600155d73c0b.png)
 
 **canny.cpp**
 
@@ -912,8 +916,6 @@ int main(int argc, char** argv){
 **pontos.png**
 
 ![pontos](https://user-images.githubusercontent.com/37122281/98449529-137d3500-2113-11eb-875a-54fd9a2d5ddd.jpg)
-
-
 
 
 ### 3.1 Quantização Vetorial com K-means
