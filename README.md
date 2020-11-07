@@ -598,7 +598,7 @@ int main(int argvc, char **argv){
 ## 2º Unidade
 ### 1.1 Filtragem no Domínio da Frequência - Filtro Homomórfico
 
-Foi utilizado o **programa dft.cpp** como base para a implementação do **filtro homomórfico**. Ele tem como função **melhorar imagens com iluminação irregular**. Ocorreu o fornecimento de uma imagem contendo uma cena mal iluminada, e com ajustes nos parâmetros do filtro homomórfico tornou-se possível **corrigir a iluminação**. Depois da aplicação do filtro é possível **perceber a presença de objetos que não eram visíveis na cena**. O código: **Filtro_homomorfico.cpp** é responável, inicialmente, por realizar a leitura da imagem: **Janela_escura.jpg** e gerar 4 slides para selecionar os **parâmetros do filtro (GammaH, GammaL, c, D0)**. Os parâmetros foram escolhidos de forma prática, ou seja, testando e observando o resultado. 
+Foi utilizado o **programa dft.cpp** como base para a implementação do **filtro homomórfico**. Ele tem como função **melhorar imagens com iluminação irregular**. Ocorreu o fornecimento de uma imagem contendo uma cena mal iluminada, e com ajustes nos parâmetros do filtro homomórfico tornou-se possível **corrigir a iluminação**. Depois da aplicação do filtro é possível **perceber a presença de objetos que não eram visíveis na cena**. O código: **Filtro_homomorfico.cpp** é responável, inicialmente, por realizar a leitura da imagem: **Janela_escura.jpg** e gerar 4 slides para selecionar os **parâmetros do filtro (GammaH = 12, GammaL = 2, c = 7, D0 = 1)**. Os parâmetros foram escolhidos de forma prática, ou seja, testando e observando o resultado. 
 
 **Filtro_homomorfico.cpp**
 ```cpp
@@ -763,13 +763,12 @@ int main(int , char**){
 }
 ```
 
-**Parâmetros da Filtragem**
-![Filtragem_parâmetros](https://user-images.githubusercontent.com/37122281/98443288-29760000-20e9-11eb-981c-2ad97717ccb7.png)
-
 **Imagem Original**
+
 ![Imagem_original](https://user-images.githubusercontent.com/37122281/98443290-2e3ab400-20e9-11eb-87fa-8956967523d5.png)
 
 **Imagem Filtrada**
+
 ![Imagem_filtrada](https://user-images.githubusercontent.com/37122281/98443293-3135a480-20e9-11eb-9016-60d694aba500.png)
 
 ### 2.1 Detecção de Bordas com o Algoritmo de Canny
