@@ -763,6 +763,15 @@ int main(int , char**){
 }
 ```
 
+**Parâmetros da Filtragem**
+![Filtragem_parâmetros](https://user-images.githubusercontent.com/37122281/98443288-29760000-20e9-11eb-981c-2ad97717ccb7.png)
+
+**Imagem Original**
+![Imagem_original](https://user-images.githubusercontent.com/37122281/98443290-2e3ab400-20e9-11eb-87fa-8956967523d5.png)
+
+**Imagem Filtrada**
+![Imagem_filtrada](https://user-images.githubusercontent.com/37122281/98443293-3135a480-20e9-11eb-9016-60d694aba500.png)
+
 ### 2.1 Detecção de Bordas com o Algoritmo de Canny
 
 ### 3.1 Quantização Vetorial com K-means
