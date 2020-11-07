@@ -1012,9 +1012,13 @@ int main(int argc, char** argv){
 
 return 0;
 }
-
 ```
 
+![cannyborders_result](https://user-images.githubusercontent.com/37122281/98450783-64465b00-211e-11eb-8a95-d8e11fff47b0.png)
+
+![pontos_result](https://user-images.githubusercontent.com/37122281/98450786-71634a00-211e-11eb-9814-556aa342b53b.jpg)
+
+![cannypoints_result](https://user-images.githubusercontent.com/37122281/98450788-76c09480-211e-11eb-8259-331bb04c62a0.png)
 
 ### 3.1 Quantização Vetorial com K-means
 
