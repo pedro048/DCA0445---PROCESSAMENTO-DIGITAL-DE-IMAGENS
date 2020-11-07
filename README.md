@@ -822,7 +822,7 @@ int main(int argc, char**argv){
   return 0;
 }
 ```
-O Threshold inferior usado foi 74.
+O Threshold inferior usado foi 24.
 
 **cannyborders.png**
 
