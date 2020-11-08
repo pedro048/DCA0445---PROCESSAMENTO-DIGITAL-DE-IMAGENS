@@ -1085,5 +1085,21 @@ int main( int argc, char** argv ){
 
 }
 ```
+**Barco.png (imagem original)**
+
+![Barco](https://user-images.githubusercontent.com/37122281/98474306-14c26680-21d4-11eb-9a4b-eb96fa5593ca.png)
+
+**Result_kmeans_1.png (1º interação)**
+
+![Result_kmeans_1](https://user-images.githubusercontent.com/37122281/98474394-1ab84780-21d4-11eb-847a-9862d46c6a31.png)
+
+**Result_kmeans_2.png (2º interação)**
+
+![Result_kmeans_2](https://user-images.githubusercontent.com/37122281/98474463-1f7cfb80-21d4-11eb-8247-b9142ef36379.png)
+
+**Result_kmeans_3.png (3º interação)**
+
+![Result_kmeans_3](https://user-images.githubusercontent.com/37122281/98474564-260b7300-21d4-11eb-87f0-5f3b202d52f5.png)
+
 
 
