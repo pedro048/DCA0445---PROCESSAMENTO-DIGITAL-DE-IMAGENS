@@ -1030,7 +1030,7 @@ return 0;
 
 ### 3.1 Quantização Vetorial com K-means
 
-O programa **kmeans.cpp** foi utilizado como base desse projeto. A execução do código se dá usando o parâmetro **nRodadas=1** e inicia os centros de forma aleatória usando o parâmetro **KMEANS_RANDOM_CENTERS** ao invés de **KMEANS_PP_CENTERS**. Foram realizadas **10 rodadas diferentes** do algoritmo e as imagens produzidas foram comparardas. As imagens podem diferir tanto, porque ... 
+O programa **kmeans.cpp** foi utilizado como base desse projeto. A execução do código se dá usando o parâmetro **nRodadas=1** e inicia os centros de forma aleatória usando o parâmetro **KMEANS_RANDOM_CENTERS** ao invés de **KMEANS_PP_CENTERS**. Foram realizadas **3 rodadas diferentes** do algoritmo e as imagens produzidas foram comparardas. As imagens não diferiram muito entre as interações. 
 
 **kmeans.cpp**
 
